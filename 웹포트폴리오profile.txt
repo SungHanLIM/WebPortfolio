@@ -1,0 +1,53 @@
+<style>
+hr {
+    background-color: #D25349;
+    height: 1px;
+    margin-bottom: 27.8px;
+    padding: 0;
+}
+h6 {
+	color: #674929;
+}
+</style>
+
+<div class="jumbotron" style="background-color: #ffffff;">
+
+<hr />
+
+<!-- 1 -->
+<h4 style="color: #6a524a;"><i class="fa fa-folder-open-o"></i> 보안∙개발 동아리 PINCOM</h4>
+<h6>  <i class="fa fa-caret-right"></i> 사물인터넷(Internet of Things)
+- 안드로이드&amp;아두이노 사물인터넷</h6>
+
+<h6><i class="fa fa-caret-right"></i> 웹 테크 |데이터베이스 | 네트워크
+- HTML, CSS, JavaScript, jQuery, JQuery Mobile
+- PHP,Mysql
+- Network</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/PINCOM"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+
+<hr/>
+
+<!-- 2 -->
+<h4 style="color: #6a524a;"><i class="fa fa-folder-open-o"></i> Google GDG Incheon</h4>
+<h6>  <i class="fa fa-caret-right"></i> Node.js
+- Node.js | Express</h6>
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/GDG"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+
+<hr/>
+
+<!-- 3 -->
+<h4 style="color: #6a524a;"><i class="fa fa-folder-open-o"></i> CDG(Challenging Development Group)</h4>
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>Java
+- Java | Maven | TDD | Refactoring | Tips for eclipse
+- Git | Bootstrap
+</h6>
+<h6>
+- Github(1) : 세미나 자료
+- Github(2) : 카카오톡 대화 내용 분석기
+- Github(3) : DesignPattern
+</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/CDG"><i class="fa fa-github-alt"></i>GITHUB(1)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/MavenProject/tree/feature/%238"><i class="fa fa-github-alt"></i>GITHUB(2)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/DesignPattern"><i class="fa fa-github-alt"></i>GITHUB(3)</a></h6>
+
+<hr />

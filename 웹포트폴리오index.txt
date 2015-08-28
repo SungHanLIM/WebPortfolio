@@ -1,0 +1,179 @@
+<?php
+/**
+ 메인페이지
+ */
+?>
+<!DOCTYPE html>
+<html
+<?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+<?php wp_head(); ?>
+
+<style>
+.tx-service:hover .tx-service-icon span {
+    background-color: #D25349;
+}
+.tx-service-icon span {
+    border: 2px solid #D25349;
+}
+.tx-service-icon span {
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    border: 2px solid #D25349;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 88px;
+    color: #D25349;
+}
+.tx-service-icon span i {
+    color: #D25349;
+    line-height: 88px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+</style>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body <?php body_class(); ?>>
+<div id="page" class="hfeed site">
+	<?php do_action( 'before' ); ?>
+	<?php if ( get_header_image() ) : ?>
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="header-image">
+		<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+	</a>
+	<?php endif; // End header image check. ?>
+	<div id="menu-toggle-nav" class="panel">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'hexa' ); ?></a>
+
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- #site-navigation -->
+	</div>
+	<?php if ( is_active_sidebar( 'sidebar-1' ) || is_active_sidebar( 'sidebar-2' ) || is_active_sidebar( 'sidebar-3' ) ) : ?>
+		<?php get_sidebar(); ?>
+	<?php endif; ?>
+	<?php if ( has_nav_menu( 'social' ) ) : ?>
+		<div id="social-links-toggle-nav" class="panel">
+			<?php wp_nav_menu( array( 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) ); ?>
+		</div>
+	<?php endif; ?>
+	<div id="search-toggle-nav" class="panel">
+		<div class="search-wrapper">
+			<?php get_search_form(); ?>
+		</div>
+	</div>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-wrapper">
+			<div class="site-branding">
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<br/><br/><br/>
+			<!-- 메인페이지 아이콘 추가 부분 -->
+				<div class="bs-example" data-example-id="thumbnails-with-custom-content">
+    <div class="row">
+	
+<!-- Profile Section -->	  	  	
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="tx-service default" style="">
+	<div class="tx-service-icon">
+		<span><a href="http://limdesigner.dothome.co.kr/?page_id=60"><i class="fa fa-user"></i></a></span>
+	</div>
+	<a href="http://limdesigner.dothome.co.kr/?page_id=60">
+	<div class="tx-service-title" style="color : #D25349;">Profile</div>
+	</a>
+</div>
+        </div>
+      </div>
+<!-- Profile Section 끝 -->	  	  
+	  
+<!-- Project Section -->	  	  
+<div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="tx-service default" style="">
+	<div class="tx-service-icon">
+		<span><a href="http://limdesigner.dothome.co.kr/?page_id=88"><i class="fa fa-file-o"></i></a></span>
+	</div>
+	<a href="http://limdesigner.dothome.co.kr/?page_id=88">
+	<div class="tx-service-title" style="color : #D25349;">Project</div>
+	</a>
+</div>
+        </div>
+      </div>
+<!-- Project Section 끝 -->	  
+
+<!-- Github Section -->	  
+	  <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="tx-service default" style="">
+	<div class="tx-service-icon">
+		<span><a href="https://github.com/SungHanLIM?tab=repositories"><i class="fa fa-github-alt"></i></a></span>
+	</div>
+	<a href="https://github.com/SungHanLIM?tab=repositories">
+	<div class="tx-service-title" style="color : #D25349;">Github</div>
+	</a>
+
+</div>
+        </div>
+      </div>
+<!-- Github Section 끝 -->	  
+	  
+        </div>
+      </div>
+				<!-- 메인페이지 아이콘 추가 부분 끝 -->
+				<br/><br/>
+			</div>
+			<div class="toggles">
+			<div id="menu-toggle" class="toggle" title="<?php esc_attr_e( 'Menu', 'hexa' ); ?>">
+				<span class="screen-reader-text"><?php _e( 'Menu', 'hexa' ); ?></span>
+			</div><!-- #menu-toggle -->
+			<?php if ( is_active_sidebar( 'sidebar-1' ) || is_active_sidebar( 'sidebar-2' ) || is_active_sidebar( 'sidebar-3' ) ) : ?>
+				<div id="sidebar-toggle" class="toggle" title="<?php esc_attr_e( 'Widgets', 'hexa' ); ?>">
+					<span class="screen-reader-text"><?php _e( 'Widgets', 'hexa' ); ?></span>
+				</div><!-- #sidebar-toggle -->
+			<?php endif; ?>
+			<?php if ( has_nav_menu( 'social' ) ) : ?>
+				<div id="social-links-toggle" class="toggle" title="<?php esc_attr_e( 'Social Links', 'hexa' ); ?>">
+					<span class="screen-reader-text"><?php _e( 'Social Links', 'hexa' ); ?></span>
+				</div><!-- #social-links-toggle -->
+			<?php endif; ?>
+			<div id="search-toggle" class="toggle" title="<?php esc_attr_e( 'Search', 'hexa' ); ?>">
+				<span class="screen-reader-text"><?php _e( 'Search', 'hexa' ); ?></span>
+			</div><!-- #search-toggle -->
+		</div><!-- .toggles -->
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php get_footer(); ?>
