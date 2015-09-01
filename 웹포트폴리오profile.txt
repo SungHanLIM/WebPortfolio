@@ -10,8 +10,8 @@ h6 {
 }
 </style>
 
-<div class="jumbotron" style="background-color: #ffffff;">
-
+<div class="jumbotron" style="background-color: #ffffff;padding-top: 0px;">
+<h6 style="color: #6a524a;margin-top: 0px;"><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="http://lim-designer.tistory.com/"><i class="fa fa-folder-open-o"></i>개발 BLOG</a></h6>
 <hr />
 
 <!-- 1 -->
