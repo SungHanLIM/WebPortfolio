@@ -51,3 +51,19 @@ h6 {
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/CDG"><i class="fa fa-github-alt"></i>GITHUB(1)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/MavenProject/tree/feature/%238"><i class="fa fa-github-alt"></i>GITHUB(2)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/DesignPattern"><i class="fa fa-github-alt"></i>GITHUB(3)</a></h6>
 
 <hr />
+
+<!-- 4 -->
+<h4 style="color: #6a524a;"><i class="fa fa-folder-open-o"></i> SK Planet 상생혁신센터 T아카데미</h4>
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>JavaScript 기본
+- JavaScript | jQuery | jQuery Mobile
+</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="http://lim-designer.tistory.com/entry/SK%ED%94%8C%EB%9E%98%EB%8B%9B-T%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8JavaScript%EA%B8%B0%EB%B3%B8"><i class="fa fa-home"></i>BLOG</a></h6>
+
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>Mobile Networking Programming(Android)
+- TCP/IP 프로그래밍 | HTTP 통신 | XML과 JSON
+- OpenAPI 활용 | 근거리 통신(Bluetooth, NFC) | 클라우드와 푸쉬
+</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+<hr />

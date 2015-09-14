@@ -34,8 +34,8 @@ hr {
 CentOS 5.7 TUI, PHP 5.3.3, Mysql 5.0.95
 
 ❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, jQuery, Bootstrap
-Apache, PHP, MySQL, phpMyadmin, Xshell, Xftp
+HTML, CSS, JavaScript, jQuery, Bootstrap,Apache
+Linux vi 편집기, PHP, MySQL, phpMyadmin, Xshell, Xftp
 
 [URIS id=109]
 
@@ -57,8 +57,8 @@ Web Client 개발(전체 웹 서비스)
 CentOS 5.7 TUI, PHP 5.3.3, Mysql 5.0.95
 
 ❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, jQuery, Bootstrap
-Apache, PHP, MySQL, WordPress, Xshell, Xftp
+HTML, CSS, JavaScript, jQuery, Bootstrap, Apache
+Linux vi 편집기, PHP, MySQL, WordPress, Xshell, Xftp
 
 [URIS id=254]
 
@@ -80,7 +80,7 @@ Ubuntu 12.04 LTS, Express, Node.js, MySQL 5.5
 
 ❖ 사용 기술 • Tools
 HTML, CSS, JavaScript, jQuery, Bootstrap
-Node.js, MySQL, Xshell, Xftp, Github
+Linux vi 편집기, Node.js, MySQL, Xshell, Xftp, Github
 
 <!-- 버튼 영역 -->
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;" href="https://youtu.be/St6EeLHopGo"><i class="fa fa-youtube-play"></i>시연영상</a> <a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/SmartOrderingSystem"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
@@ -89,7 +89,7 @@ Node.js, MySQL, Xshell, Xftp, Github
 <hr />
 
 <!-- SmartOrdering - JSP -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Smart Ordering System - JSP Version</h2>
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Smart Mobile Web Application - JSP Version</h2>
 <h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">Family Restaurant인 아웃백(OutBack Steak House)을 예시로 손님의 편의를 위한 메뉴 정보,매장 안내, 길 안내 등의 상세 정보를 보여주는 Mobile Web Application</h6>
 <h6 style="color: #674929;">
 ❖ 개발 기간
