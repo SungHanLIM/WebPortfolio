@@ -34,8 +34,8 @@ hr {
 CentOS 5.7 TUI, PHP 5.3.3, Mysql 5.0.95
 
 ❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, jQuery, Bootstrap,Apache
-Linux vi 편집기, PHP, MySQL, phpMyadmin, Xshell, Xftp
+HTML, CSS, JavaScript, jQuery, Bootstrap
+Apache, Linux vi 편집기, PHP, MySQL, phpMyadmin
 
 [URIS id=109]
 
@@ -144,19 +144,51 @@ C, HTML, Arduino Sketch ,Android SDK
 
 <hr />
 
-<!-- Mobile Web Portfolio -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Mobile Web Portfolio</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;"> 포트폴리오 웹 모바일 버전 (PC• Mobile)</h6>
+<!-- melon -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i>멜론 실시간 검색 Application</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">SKPlanetx의 JSON Data를 이용하여 멜론 서비스를 제공하는 앱</h6>
 <h6 style="color: #674929;">
+
+❖ 주요 기능
+실시간 멜론 차트 TOP 10, 음악 재생 
+현재 순위, 과거 순위, 재생시간, 가수 정보 출력
+
+❖ 개발환경
+ANDROID STUDIO 1.3.2
+
 ❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, jQuery, Bootstrap
-Apache, PHP, MySQL, WordPress, Xshell, Xftp
+JAVA, ANDROID, SERIALIZABLE
+JSON, SK-PLANETX, GITHUB
 </h6>
 
 <!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/WebPortfolio"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=366]
-<br/>
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/jsonProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=406]
+
+<hr />
+
+<!-- 게시판 -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i>MVC 반응형 웹 게시판</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">Google GSON 기반 게시판 기능을 제공하는 반응형 웹 서비스</h6>
+<h6 style="color: #674929;">
+
+❖ 주요 기능
+로그인, 로그아웃, 글수정, 글삭제, 글등록
+글리스트(글번호, 글제목, 작성자, 등록일)
+
+❖ 개발환경
+Eclipse Java EE IDE for Web Developers
+Version: Luna Service Release 2 (4.4.2)
+
+❖ 사용 기술 • Tools
+JAVA, JSP, GOOGLE GSON, MVC PATTERN
+HTML, CSS, BOOTSTRAP, MYSQL, GITHUB
+</h6>
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/BoardMVC"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=409]
+
 <hr />
 
 <!-- Address Book Project -->
@@ -181,6 +213,64 @@ Java, Eclipse Luna (4.4.2), MySQL, Github
 <!-- 버튼 영역 -->
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/JSP-Project/tree/master/AddressBookProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 [URIS id=294]
+
+<hr />
+
+<!-- Android Chatting Program -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Android Chatting Program
+- Bluetooth • Socket
+</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">안드로이드 buetooth • TCP를 이용한 채팅 애플리케이션</h6>
+<h6 style="color: #674929;">
+❖ 개발환경
+Android Studio 1.3.2
+
+❖ 사용 기술 • Tools
+JAVA, JAVASCRIPT, ANDROID
+BLUETOOTH, SOCKET, NODE.JS, GITHUB
+
+- Github(1) : Socket Server
+- Github(2) : Socket Client
+- Github(3) : Bluetooth Server & Client
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/NodeJS_Server/Socket_Server"><i class="fa fa-github-alt"></i>GITHUB(1)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/ChatClient"><i class="fa fa-github-alt"></i>GITHUB(2)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/BluetoothChat"><i class="fa fa-github-alt"></i>GITHUB(3)</a></h6>
+[URIS id=385]
+
+<hr />
+
+<!-- 영화 정보 관리 프로그램 - Android -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> 영화 정보 관리 프로그램 - Android</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">RESTful 통신과 Volley를 이용하여 영화 정보를 관리하는 프로그램</h6>
+<h6 style="color: #674929;">
+❖ 주요 기능
+영화 정보 갱신영화 정보 상세보기
+영화 정보 추가 • 수정 • 삭제 • 리뷰작성
+
+❖ 개발환경
+Android Studio 1.3.2
+
+❖ 사용 기술 • Tools
+JAVA, Android, Singleton Pattern, NODE.JS
+Restful(GET, POST, PUT, DELETE), GITHUB
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/MobileNetworking"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=387]
+
+<hr />
+
+<!-- Mobile Web Portfolio -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Mobile Web Portfolio</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;"> 포트폴리오 웹 모바일 버전 (PC• Mobile)</h6>
+<h6 style="color: #674929;">
+❖ 사용 기술 • Tools
+HTML, CSS, JavaScript, jQuery, Bootstrap
+Apache, PHP, MySQL, WordPress, Xshell, Xftp
+</h6>
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/WebPortfolio"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=366]
 
 <hr />
 
@@ -230,5 +320,7 @@ C, Visual Studio, Github
 
 <!-- 버튼 영역 -->
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/ProjectsWithLanguageC/tree/master/InformativeQuizProgram(ver.02)
-"></i>GITHUB</a></h6>
+"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 [URIS id=369]
+
+

@@ -1,4 +1,9 @@
 <style>
+.dotted_line {  
+ border-bottom-width: 2px;   
+ border-bottom-style: dotted;  
+ border-bottom-color: #d25349;   
+}
 hr {
     background-color: #D25349;
     height: 1px;
@@ -16,13 +21,13 @@ h6 {
 
 <!-- 1 -->
 <h4 style="color: #6a524a;"><i class="fa fa-folder-open-o"></i> 보안∙개발 동아리 PINCOM</h4>
-<h6>  <i class="fa fa-caret-right"></i> 사물인터넷(Internet of Things)
-- 안드로이드&amp;아두이노 사물인터넷</h6>
-
 <h6><i class="fa fa-caret-right"></i> 웹 테크 |데이터베이스 | 네트워크
-- HTML, CSS, JavaScript, jQuery, JQuery Mobile
-- PHP,Mysql
+- HTML | CSS | JavaScript | jQuery | JQuery Mobile
+- PHP | Mysql
 - Network</h6>
+
+<h6><i class="fa fa-caret-right"></i> 사물인터넷(Internet of Things)
+- 안드로이드 | 아두이노 사물인터넷</h6>
 
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/PINCOM"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 
@@ -59,11 +64,31 @@ h6 {
 </h6>
 
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="http://lim-designer.tistory.com/entry/SK%ED%94%8C%EB%9E%98%EB%8B%9B-T%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8JavaScript%EA%B8%B0%EB%B3%B8"><i class="fa fa-home"></i>BLOG</a></h6>
-
-<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>Mobile Networking Programming(Android)
+<div class="dotted_line"></div>
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>Mobile Networking Programming(Android, Node.js)
 - TCP/IP 프로그래밍 | HTTP 통신 | XML과 JSON
 - OpenAPI 활용 | 근거리 통신(Bluetooth, NFC) | 클라우드와 푸쉬
 </h6>
 
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+
+<div class="dotted_line"></div>
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>모바일 서버 프로그래밍 기본(JSP, Android)
+- 모바일 서버 프로그래밍 개론 | GET 방식과 POST 방식 | XML과 JSON
+- 서블릿(servlet) 프로그래밍 | 서블릿의 Life Cycle | 이벤트 리스너
+- Android와 JSP 연동 | JSP 프로그래밍 | 서블릿과 JSP 혼합 | 쿠키 | 세션
+- 데이터베이스(JDBC) | JSP 액션 | JSP 라이브러리 | 처리흐름 제어 필터 | MVC
+</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="http://lim-designer.tistory.com/category/T%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EC%84%9C%EB%B2%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EB%B3%B8"><i class="fa fa-home"></i>BLOG</a></h6>
+
+<div class="dotted_line"></div>
+<h6 style="margin-bottom: 0px;">  <i class="fa fa-caret-right"></i>데이터베이스 모델링/튜닝
+- 데이터 모델링 개념 | 데이터 분석/모델링 
+- 개념적 설계 | 논리적 설계 | 물리적 설계
+- 성능을 고려한 ERD 재조정 설계 | 성능을 위한 인덱스, 뷰 구성
+- 정규화, 역정규화를 이용한 모델링 | 성능 향상 데이터 모델링
+</h6>
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="http://lim-designer.tistory.com/category/T%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%ED%8A%9C%EB%8B%9D"><i class="fa fa-home"></i>BLOG</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/DBmodelling"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 <hr />
