@@ -17,18 +17,75 @@ hr {
 </blockquote>
 
 <hr />
+<!-- 프로젝트 시작 -->
+<!-- SmartOrdering - Node.js -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Smart Ordering System - Node.js Version</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">현재 요식업계에서 주문벨, 종업원들의 주문기록 실수, 일시적인 주문 데이터 등의 문제점을 개선하고자 Family Restaurant인 아웃백을 예시로 개발한 통합 매장 관리 시스템</h6>
+<h6 style="color: #674929;">
+❖ 개발 기간
+2014.09.01 ~ 2015.05.29
+
+❖ 주요 역할 : 팀장
+(1) 서버 구축 (NODE.JS, Express)
+(2) 데이터베이스 개발(MySQL)
+(3) 클라이언트 개발- 손님용 MOBILE WEB APPLICATION
+- 관리자용 WEB CLIENT
+
+Node.js로 서버를 구축한 뒤 고객 주문목록, 테이블목록, 주문메뉴목록, 
+지점별 설명, 메뉴 등 레스토랑의 정보를 MySQL을 사용하여 저장
+
+기존의 XML 보다 효율적인 데이터 전송을 위해 JSON을 이용하였으며
+JavaScript와 jQuery, JSON과 Ajax를 기반으로 데이터 파싱을 구현
+
+❖ 개발환경
+Ubuntu 12.04 LTS, Express, Node.js, MySQL 5.5
+
+❖ 사용 기술 • Tools
+HTML, CSS, JavaScript, jQuery, Bootstrap
+Linux vi 편집기, Node.js, MySQL, Xshell, Xftp, Github
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;" href="https://youtu.be/St6EeLHopGo"><i class="fa fa-youtube-play"></i>시연영상</a> <a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/SmartOrderingSystem"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=271]
+
+<hr />
+
+<!-- 고독사 방지 시스템 -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> 독거노인을 위한 Life Care System</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">독거노인의 고독사 문제를 해결하고, 응급상황에 대처할 수 있도록 하기 위한 시스템</h6>
+<h6 style="color: #674929;">
+❖ 개발 기간
+2014.04.07 ~ 2014.12.04
+
+❖ 주요 역할 : 팀장
+Arduino와 Wifi Shield 기반 H/W 개발
+Server & Client(Android) 통신 구축
+Android UI 기획 • 적용
+
+❖ 개발환경
+Arduino IDE ver. 1.6.0, Java SE 8u25
+
+❖ 사용 기술 • Tools
+C, HTML, Arduino Sketch ,Android SDK 
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;" href="https://www.youtube.com/watch?v=O4m7OQ7qYiI"><i class="fa fa-youtube-play"></i>시연영상</a> <a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/DreamEnter2014"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=289]
+
+<hr/>
 
 <!-- Umileencoder -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Umileencoder</h2>
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Umile Encoder</h2>
 <h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">동영상 파일을 아이팟터치, 아이패드, 아이폰, 휴대폰, 게임기 등과 같은 기기에서 재생할 수 있도록 변환해주는 Umileencoder 프로그램 다운로드 및 서비스 안내 웹 서비스</h6>
 <h6 style="color: #674929;">
 ❖ 개발 기간
 2015.06.22 ~ 2015.08.14
 
-❖ 주요 역할
+❖ 주요 역할 : 인턴십_웹서비스 개발
 (주)테크노니아 SW사업부 / 솔루션팀
-서버 복구(서비스 재개) • 유지보수
-서비스 커스터마이징
+(1) 서버 구축 및 개발
+(2) 일일, 월 사용량 기능 구현
+(3) 서비스 접속 오류 디버깅 및 유지보수
 
 ❖ 개발환경
 CentOS 5.7 TUI, PHP 5.3.3, Mysql 5.0.95
@@ -48,10 +105,20 @@ Apache, Linux vi 편집기, PHP, MySQL, phpMyadmin
 ❖ 개발 기간
 2015.06.22 ~ 2015. 08.14
 
-❖ 주요 역할
-(주)테크노니아 SW사업부 / 솔루션팀
-서비스 기획, 서버 • DB 구축 및 운용
-Web Client 개발(전체 웹 서비스)
+❖ 주요 역할 : 인턴십_웹서비스 개발
+(주)테크노니아 SW사업부 / 솔루션팀
+(1) 서버 구축 및 개발
+(2) 데이터베이스 개발
+(3) 웹 클라이언트 개발
+- Social 로그인 및 회원가입 (facebook, youtube, google..)
+- 고객용 Web Client (장바구니, 결제, 회사소개, Q&A)
+- 관리자용 Web Client(월별 매출 통계, 주문 관리)
+
+- APM기반 웹서비스 환경을 구축한 뒤, Apache VirtualHost 기반
+   Umile Encoder와 K-POP Dance Store 웹서비스 통합 운용
+- KG이니시스 API 기반 전자결제 서비스, User 계정, Contents, 
+   이미지 URL 등 데이터베이스를 설계
+- youtube 서비스 기반 영상 서비스 기능 구현
 
 ❖ 개발환경
 CentOS 5.7 TUI, PHP 5.3.3, Mysql 5.0.95
@@ -64,30 +131,6 @@ Linux vi 편집기, PHP, MySQL, WordPress, Xshell, Xftp
 
 <hr />
 
-<!-- SmartOrdering - Node.js -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Smart Ordering System - Node.js Version</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">현재 요식업계에서 주문벨, 종업원들의 주문기록 실수, 일시적인 주문 데이터 등의 문제점을 개선하고자 Family Restaurant인 아웃백을 예시로 개발한 통합 매장 관리 시스템</h6>
-<h6 style="color: #674929;">
-❖ 개발 기간
-2014.09.01 ~ 2015.05.29
-
-❖ 주요 역할
-서버(Node.js) 구축,  클라이언트 개발
-(Mobile Web Application, Web Client)
-
-❖ 개발환경
-Ubuntu 12.04 LTS, Express, Node.js, MySQL 5.5
-
-❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, jQuery, Bootstrap
-Linux vi 편집기, Node.js, MySQL, Xshell, Xftp, Github
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;" href="https://youtu.be/St6EeLHopGo"><i class="fa fa-youtube-play"></i>시연영상</a> <a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/SmartOrderingSystem"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=271]
-
-<hr />
-
 <!-- SmartOrdering - JSP -->
 <h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Smart Mobile Web Application - JSP Version</h2>
 <h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">Family Restaurant인 아웃백(OutBack Steak House)을 예시로 손님의 편의를 위한 메뉴 정보,매장 안내, 길 안내 등의 상세 정보를 보여주는 Mobile Web Application</h6>
@@ -95,8 +138,13 @@ Linux vi 편집기, Node.js, MySQL, Xshell, Xftp, Github
 ❖ 개발 기간
 2015.05.01 ~ 2015.06.14
 
-❖ 주요 역할
-서버 구축, Web Client 개발
+❖ 주요 역할 : 팀장
+(1) 서버 구축 및 개발(MVC, Singleton Pattern 기반 JSP)
+(2) 데이터베이스 개발(Mysql)
+(3) 손님용 MOBILE WEB APP 개발
+- Google 기반 매장 위치 검색 서비스
+- 메뉴 상세 정보 웹페이지
+- 레스토랑 정보 및 영업안내 서비스
 
 ❖ 개발환경
 Windows8, Java SE 8u25, Apache Tomcat 8.0, MySQL 5.5
@@ -109,29 +157,6 @@ Java, Eclipse Luna (4.4.2), MySQL, Github
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/JSP-Project/tree/master/SmartMobileWebAppProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 [URIS id=278]
 
-<hr />
-
-<!-- 고독사 방지 시스템 -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> 독거노인을 위한 Life Care System</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">독거노인의 고독사 문제를 해결하고, 응급상황에 대처할 수 있도록 하기 위한 시스템</h6>
-<h6 style="color: #674929;">
-❖ 개발 기간
-2014.04.07 ~ 2014.12.04
-
-❖ 주요 역할
-Arduino와 Wifi Shield 기반 H/W 개발
-Server & Client(Android) 통신 구축
-Android UI 기획 • 적용
-
-❖ 개발환경
-Arduino IDE ver. 1.6.0, Java SE 8u25
-
-❖ 사용 기술 • Tools
-C, HTML, Arduino Sketch ,Android SDK 
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;" href="https://www.youtube.com/watch?v=O4m7OQ7qYiI"><i class="fa fa-youtube-play"></i>시연영상</a> <a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/DreamEnter2014"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=289]
 
 &nbsp;
 
@@ -141,6 +166,154 @@ C, HTML, Arduino Sketch ,Android SDK
 <blockquote style="border-left: 5px solid #ce4844;">
 <p id="personal"><b>Personal Projects</b></p>
 </blockquote>
+
+<hr />
+
+<!-- Informative Quiz Program -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Informative Quiz Program</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">슬롯게임과 방향키를 이용한 매뉴얼 선택 등의 기능을 이용하여 아이들이 재미있게 한국사, 세계사, 일반상식을 공부를 할 수 있도록 도와주는 프로그램</h6>
+<h6 style="color: #674929;">
+❖ 개발 기간
+2014.04.05 ~ 2014.05.20
+
+❖ 주요 기능
+(1) 로그인, 회원 정보 검색, 관리자 회원 계정 조정 기능
+fseek(), ftell(), FILE 입출력 함수, malloc() 기반 
+사용자 로그인, 회원 정보 검색, 관리자 특수 권한 기능 구현
+
+(2) 방향키 기반 매뉴얼 선택 기능
+ASCII 기반 매직넘버, gotoxy()를 이용하여 
+방향키를 이용한 메뉴얼 선택 기능 구현
+
+(3) 힌트지급 슬롯 게임Random 함수, 이차원 배열 기반 힌트 지급 슬롯 게임 구현 및
+매번 다르게 출력되는 문제 순서 함수 구현.
+
+(4) 랭킹조회
+score 점수 기반 석차 함수 구현
+
+(5) 콘솔 창 색상 변경
+GetStdHandle(STD_OUTPUT_HANDLE), SerConsoleTextAttribute() 기반 색상 변경 기능 구현
+
+❖ 사용 기술 • Tools
+C, Visual Studio, Github
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/ProjectsWithLanguageC/tree/master/InformativeQuizProgram(ver.02)
+"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=369]
+
+<hr/>
+
+<!-- Android Chatting Program -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Android Chatting Program
+- Bluetooth • Socket
+</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">안드로이드 buetooth • TCP를 이용한 채팅 애플리케이션</h6>
+<h6 style="color: #674929;">
+❖ 주요 기능
+TCP 채팅
+블루투스 사용 가능 여부 검사 
+블루투스 장치 검색, 블루투스 채팅
+
+
+Bluetooth API 기반 기능 구현
+(BluetoothAdapter, BluetoothSocket..)
+- 블루트스 기기 검색
+- RFCOMM 채널 생성
+- 다중 연결 관리
+- 데이터 주고받기(I/O Stream)
+
+❖ 개발환경
+NODE.JS, EXPRESS, Android Studio 1.3.2
+
+❖ 사용 기술 • Tools
+JAVA, JAVASCRIPT, ANDROID
+BLUETOOTH, SOCKET, NODE.JS, GITHUB
+
+- Github(1) : Socket Server
+- Github(2) : Socket Client
+- Github(3) : Bluetooth Server & Client
+
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/NodeJS_Server/Socket_Server"><i class="fa fa-github-alt"></i>GITHUB(1)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/ChatClient"><i class="fa fa-github-alt"></i>GITHUB(2)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/BluetoothChat"><i class="fa fa-github-alt"></i>GITHUB(3)</a></h6>
+[URIS id=385]
+
+<hr />
+
+<!-- KakaoTalk 대화 내용 분석기 -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> KakaoTalk 대화 내용 분석기</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">카톡내용분석기 : 카카오톡의 대화내용을 분석하는 프로그램
+• 가장 많이 대화하는 시간대
+• User가 가장 많이 사용하는 단어 List 출력</h6>
+<h6 style="color: #674929;">
+❖ 개발 기간
+2015.06.01 ~ 2015.07.31
+
+❖ 주요 기능
+(1) 가장 많이 대화하는 시간대 분석Pattern, Matcher API 기반 대화 시간대 패턴 분석
+
+(2) 사용자 별 많이 사용하는 단어 분석
+HashMap, Map API 기반 사용자별 단어 Counting을 통해 단어 사용 빈도 분석
+
+- Builder Pattern 기반 Analyzer, Printer, ReadFile 로직 분리
+- ArrayList에 사용자 저장 후 Iterator Pattern, Map을 기반 사용자 정보 매핑
+
+❖ 개발환경
+Java SE 8u25
+
+❖ 사용 기술 • Tools
+Java, Maven, Eclipse Luna (4.4.2),  Github
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/MavenProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=305]
+
+<hr />
+
+<!-- 게시판 -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i>MVC 반응형 웹 게시판</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">Google GSON 기반 게시판 기능을 제공하는 반응형 웹 서비스</h6>
+<h6 style="color: #674929;">
+
+❖ 주요 기능
+(1) server side 
+MVC pattern 기반 서버 구축 및 개발
+(2) client side
+- 로그인, 로그아웃, 글수정, 글삭제, 글등록
+- 글리스트(글번호, 글제목, 작성자, 등록일)
+
+❖ 개발환경
+Eclipse Java EE IDE for Web Developers
+Version: Luna Service Release 2 (4.4.2)
+
+❖ 사용 기술 • Tools
+JAVA, JSP, GOOGLE GSON, MVC PATTERN
+HTML, CSS, BOOTSTRAP, MYSQL, GITHUB
+</h6>
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/BoardMVC"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=409]
+
+<hr />
+
+<!-- 영화 정보 관리 프로그램 - Android -->
+<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> 영화 정보 관리 프로그램 - Android</h2>
+<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">RESTful 통신과 Volley를 이용하여 영화 정보를 관리하는 프로그램</h6>
+<h6 style="color: #674929;">
+❖ 주요 기능
+영화 정보 갱신영화 정보 상세보기
+영화 정보 추가 • 수정 • 삭제 • 리뷰작성
+
+❖ 개발환경
+NODE.JS, EXPRESS, Android Studio 1.3.2
+
+❖ 사용 기술 • Tools
+JAVA, Android, Singleton Pattern, NODE.JS
+Restful(GET, POST, PUT, DELETE), GITHUB
+
+<!-- 버튼 영역 -->
+<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/MobileNetworking"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
+[URIS id=387]
 
 <hr />
 
@@ -167,98 +340,6 @@ JSON, SK-PLANETX, GITHUB
 
 <hr />
 
-<!-- 게시판 -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i>MVC 반응형 웹 게시판</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">Google GSON 기반 게시판 기능을 제공하는 반응형 웹 서비스</h6>
-<h6 style="color: #674929;">
-
-❖ 주요 기능
-로그인, 로그아웃, 글수정, 글삭제, 글등록
-글리스트(글번호, 글제목, 작성자, 등록일)
-
-❖ 개발환경
-Eclipse Java EE IDE for Web Developers
-Version: Luna Service Release 2 (4.4.2)
-
-❖ 사용 기술 • Tools
-JAVA, JSP, GOOGLE GSON, MVC PATTERN
-HTML, CSS, BOOTSTRAP, MYSQL, GITHUB
-</h6>
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/BoardMVC"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=409]
-
-<hr />
-
-<!-- Address Book Project -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Address Book Project</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">빈즈를 이용하여 데이터베이스를 연동한 MVC 패턴 기반의 주소록 웹 애플리케이션</h6>
-<h6 style="color: #674929;">
-❖ 개발 기간
-2015.04.11 ~ 2015.05.01
-
-❖ 주요 역할
-서버 • DB구축 및 운용
-Web Client 개발
-
-❖ 개발환경
-Windows8, Java SE 8u25, Apache Tomcat 8.0, MySQL 5.5
-
-❖ 사용 기술 • Tools
-HTML, CSS, JavaScript, Bootstrap
-Java, Eclipse Luna (4.4.2), MySQL, Github
-</h6>
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/JSP-Project/tree/master/AddressBookProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=294]
-
-<hr />
-
-<!-- Android Chatting Program -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Android Chatting Program
-- Bluetooth • Socket
-</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">안드로이드 buetooth • TCP를 이용한 채팅 애플리케이션</h6>
-<h6 style="color: #674929;">
-❖ 개발환경
-Android Studio 1.3.2
-
-❖ 사용 기술 • Tools
-JAVA, JAVASCRIPT, ANDROID
-BLUETOOTH, SOCKET, NODE.JS, GITHUB
-
-- Github(1) : Socket Server
-- Github(2) : Socket Client
-- Github(3) : Bluetooth Server & Client
-
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/NodeJS_Server/Socket_Server"><i class="fa fa-github-alt"></i>GITHUB(1)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/ChatClient"><i class="fa fa-github-alt"></i>GITHUB(2)</a><a class="tx-button" style="color: #ffffff; background-color: #d25349; margin-bottom: 2px;margin-right: 2px;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/BluetoothChat"><i class="fa fa-github-alt"></i>GITHUB(3)</a></h6>
-[URIS id=385]
-
-<hr />
-
-<!-- 영화 정보 관리 프로그램 - Android -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> 영화 정보 관리 프로그램 - Android</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">RESTful 통신과 Volley를 이용하여 영화 정보를 관리하는 프로그램</h6>
-<h6 style="color: #674929;">
-❖ 주요 기능
-영화 정보 갱신영화 정보 상세보기
-영화 정보 추가 • 수정 • 삭제 • 리뷰작성
-
-❖ 개발환경
-Android Studio 1.3.2
-
-❖ 사용 기술 • Tools
-JAVA, Android, Singleton Pattern, NODE.JS
-Restful(GET, POST, PUT, DELETE), GITHUB
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/Tacademy/tree/master/MobileNetworkProgramming(Android)/MobileNetworking"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=387]
-
-<hr />
-
 <!-- Mobile Web Portfolio -->
 <h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Mobile Web Portfolio</h2>
 <h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;"> 포트폴리오 웹 모바일 버전 (PC• Mobile)</h6>
@@ -271,56 +352,3 @@ Apache, PHP, MySQL, WordPress, Xshell, Xftp
 <!-- 버튼 영역 -->
 <h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/WebPortfolio"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
 [URIS id=366]
-
-<hr />
-
-<!-- KakaoTalk 대화 내용 분석기 -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> KakaoTalk 대화 내용 분석기</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">카톡내용분석기 : 카카오톡의 대화내용을 분석하는 프로그램
-• 가장 많이 대화하는 시간대
-• User가 가장 많이 사용하는 단어 List 출력</h6>
-<h6 style="color: #674929;">
-❖ 개발 기간
-2015.07.20 ~ 2015.07.31
-
-❖ 주요 기능
-가장 많이 대화하는 시간대 분석 
-사용자 별 많이 사용하는 단어 분석
-
-❖ 개발환경
-Java SE 8u25
-
-❖ 사용 기술 • Tools
-Java, Maven, Eclipse Luna (4.4.2),  Github
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/MavenProject"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=305]
-
-<hr />
-
-<!-- Informative Quiz Program -->
-<h2 style="color: #d25349;"><i class="fa fa-folder-open-o"></i> Informative Quiz Program</h2>
-<h6 style="margin-top: 5px; margin-bottom: 5px; text-align: left; color: #a69e8d;">슬롯게임과 방향키를 이용한 매뉴얼 선택 등의 기능을 이용하여 아이들이 재미있게 한국사, 세계사, 일반상식을 공부를 할 수 있도록 도와주는 프로그램</h6>
-<h6 style="color: #674929;">
-❖ 개발 기간
-2014.04.20 ~ 2014.05.12
-
-❖ 주요 기능
-파일 입출력을 통한 로그인, 회원 정보 검색 
-관리자 계정 권한 부여 - 회원 계정 조정 기능
-방향키를 이용한 매뉴얼 선택(ASCII)
-랭킹 조회 / 슬롯 게임을 이용한 힌트 지급
-
-❖ 개발환경
-Visual Studio 2012
-
-❖ 사용 기술 • Tools
-C, Visual Studio, Github
-
-<!-- 버튼 영역 -->
-<h6><a class="tx-button" style="color: #ffffff; background-color: #d25349;" href="https://github.com/SungHanLIM/ProjectsWithLanguageC/tree/master/InformativeQuizProgram(ver.02)
-"><i class="fa fa-github-alt"></i>GITHUB</a></h6>
-[URIS id=369]
-
-
